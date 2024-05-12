@@ -3,31 +3,119 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --highlight-col: #C0FF00;
+  --global-col: #BCFFB1;
+  --page-bg: #1A3C23;
+  --transition-bg: #112511; 
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--page-bg);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--highlight-col);
+}
+p,button,li {
+  line-height: 1.25;
+  font-size: 1.125rem;
+}
+input:focus {
+  border: 2px solid var(--global-col);
+}
+textarea:focus {
+  border: 2px solid var(--global-col);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.margin__setter {
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+.padding__setter {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media screen and (max-width: 800px) {
+  .margin__setter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
   }
+  .padding__setter {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+/* Themed classes */
+
+/* BORDERS */
+
+.b__bottom {
+  border-bottom: 1px solid var(--global-col);
+}
+.b__top {
+  border-top: 1px solid var(--global-col);
+}
+.b {
+  border: 1px solid var(--global-col);
+}
+
+/* BACKGROUNDS */
+
+.global__bg {
+  background-color: var(--global-col);
+}
+
+/* COLOURS */
+
+/* (Highlight Colour) */
+.hc {
+    color: var(--highlight-col);
+}
+/* (Primary Colour) */
+.pc { 
+    color: var(--global-col);
+}
+/* (Inverse Colour) */
+.ic { 
+    color: var(--page-bg);
+}
+.svgFill {
+    fill: var(--page-bg);
+}
+.transition__bg {
+    background-color: var(--transition-bg);
+}
+
+/* HOVER STATES */
+
+.hvr {
+    transition: all 0.2s ease-in-out;
+  }
+.hvr:hover{
+  scale:1.02;
+}
+
+/* FORM ELEMENTS */
+
+.target__form {
+    display: flex;
+    flex-direction: column;
+}
+.accent__col_placeholder {
+    opacity: 0.5;
+    color: var(--global-col);
+}
+
+/* MISC */
+
+.bottom__left_radius {
+    border-bottom-left-radius: 50px;
 }
