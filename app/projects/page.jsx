@@ -41,7 +41,7 @@ const ProjectsPage = () => {
   const footerCtaButtonTranslate = useTransform(
     scrollYProgress,
     [0, 1],
-    ["600px", "-50px"]
+    ["350px", "-50px"]
   );
 
 

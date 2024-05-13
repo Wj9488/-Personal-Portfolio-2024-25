@@ -35,6 +35,11 @@ export default function Home() {
     [0, 1],
     ["150px", "-100px"]
   );
+  const projectSectionTranslate = useTransform(
+    scrollYProgress,
+    [0, 1],
+    ["325px", "-100px"]
+  );
   const footerCtaTranslate = useTransform(
     scrollYProgress,
     [0, 1],
@@ -189,13 +194,15 @@ export default function Home() {
               </div>
             </div>
             <a.div style={{ y: CtaTranslate }}>
-              <Cta linkPath="/about" text="About me" extraCss="" />
+              <Cta linkPath="/about" text="About me" extraCss="shadow-2xl" />
             </a.div>
           </section>
 
-          <section className="margin__setter mt-[5rem] pc">
-            <CommonHeader headerText="Projects & Ideas" />
-            <div className="b__top mt-[2.5rem]">
+          <a.section className="padding__setter pt-[5rem] pb-[10rem] mb-[5rem] shadow-2xl ic bg-[#f7f7f7]"
+            style={{ y: projectSectionTranslate }}
+          >
+            <CommonHeader headerText="Projects & Ideas" extraCss="ic" />
+            <div className="ic__b_top mt-[2.5rem]">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="Excode 2024"
@@ -204,7 +211,7 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-            <div className="b__top">
+            <div className="ic__b_top">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="Strong Words"
@@ -213,7 +220,7 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-            <div className="b__top">
+            <div className="ic__b_top">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="Finance for Managers"
@@ -222,7 +229,7 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-            <div className="b__top">
+            <div className="ic__b_top">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="French For All"
@@ -231,7 +238,7 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-            <div className="b__top">
+            <div className="ic__b_top">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="Array Internship"
@@ -240,7 +247,7 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-            <div className="b__top">
+            <div className="ic__b_top">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="Finance for Managers"
@@ -249,7 +256,7 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-            <div className="b__top">
+            <div className="ic__b_top">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="Thousand Lines Internship"
@@ -258,7 +265,7 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-            <div className="b__top b__bottom">
+            <div className="ic__b_top ic__b_bottom">
               <Project
                 imageSrc={HomePageImage}
                 projectTitle="Finance for Managers"
@@ -267,7 +274,70 @@ export default function Home() {
                 projectLink="https://french-lesson.com"
               />
             </div>
-          </section>
+          </a.section>
+
+          <section className="margin__setter mt-[5rem]">
+          <div className="lg:w-3/4">
+            <CommonHeader
+              headerText="Current Skillset"
+            />
+          </div>
+
+          <div className="mt-[5rem] grid grid-cols-2 lg:gap-12 gap-4 lg:grid-cols-4 grid-rows-1 text-lg py-[1rem] pc">
+            <div>
+              <p className="opacity-50 mb-2 lg:text-lg text-sm">
+                Coding Languages
+              </p>
+              <p className="">
+                HTML 5
+                <br />
+                CSS
+                <br />
+                Javascript
+                <br />
+                Python
+                <br />
+                Typescript
+              </p>
+            </div>
+            <div>
+              <p className="opacity-50 mb-2 lg:text-lg text-sm">Frameworks</p>
+              <p className="">
+                React
+                <br />
+                Next Js
+                <br />
+                Tailwind CSS
+                <br />
+                SCSS
+              </p>
+            </div>
+            <div>
+              <p className="opacity-50 mb-2 lg:text-lg text-sm">Animation</p>
+              <p className="">
+                GSAP
+                <br />
+                Framer-Motion
+              </p>
+            </div>
+            <div>
+              <p className="opacity-50 mb-2 lg:text-lg text-sm">
+                Microsoft Office
+              </p>
+              <p className="">
+                Outlook
+                <br />
+                Excel
+                <br />
+                Powerpoint
+                <br />
+                Word
+                <br />
+                Power Automate
+              </p>
+            </div>
+          </div>
+        </section>
 
           <section className="relative py-[5rem]">
             <div className="z-[-10]">

@@ -40,14 +40,13 @@ const ContactPage = () => {
   );
 
   const formAnim = {
-    initial: {opacity: 0, y: 5},
+    initial: { opacity: 0, y: 5},
     animate: {
-      opacity: 1, 
+      opacity: 1,
       y: 0,
       transition: {
-        duration: 1, 
-        ease: "easeInOut",
-        delay: 1, 
+        delay: .8, 
+        duration: .75, 
       }
     }
   }

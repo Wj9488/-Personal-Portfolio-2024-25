@@ -93,7 +93,12 @@ textarea:focus {
 .transition__bg {
     background-color: var(--transition-bg);
 }
-
+.ic__b_top {
+  border-top: 1px solid var(--page-bg);
+}
+.ic__b_bottom {
+  border-bottom: 1px solid var(--page-bg);
+}
 /* HOVER STATES */
 
 .hvr {
