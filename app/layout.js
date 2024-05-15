@@ -1,8 +1,8 @@
 import './globals.css'
 
 import localFont from "next/font/local"
-import Footer from '@/components/Footer';
-import AlternativeMenu from '@/components/AlternativeMenu';
+import Footer from '../components/Footer';
+import AlternativeMenu from '../components/AlternativeMenu';
 
 const WJ = localFont({
   src: [

@@ -1,7 +1,7 @@
 "use client"
 
-import Nav from "@/components/Nav"
-import Transition from "@/components/common/Transition"
+import Nav from "../components/Nav"
+import Transition from "../components/common/Transition"
 import Marquee from "react-fast-marquee"
 
 const NotFound = () => {

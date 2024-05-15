@@ -1,6 +1,6 @@
 "use client"
 
-import ShowcasePageTemplate from "@/components/common/ShowcasePageTemplate"
+import ShowcasePageTemplate from "../../../components/common/ShowcasePageTemplate";
 
 const ArrayInternship = () => {
   return (

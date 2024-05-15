@@ -4,15 +4,11 @@ import { useEffect } from "react";
 
 import { motion as a, useScroll, useTransform } from "framer-motion";
 
-import Link from "next/link";
-
-import Transition from "@/components/common/Transition";
-import Nav from "@/components/Nav";
+import Transition from "../../components/common/Transition";
+import Nav from "../../components/Nav";
 import PageHeader from "../../components/common/PageHeader";
 import Lenis from "lenis";
 import GMTClock from "../../components/GMTClock"
-
-import Marquee from "react-fast-marquee";
 
 const ContactPage = () => {
   const { scrollYProgress } = useScroll();

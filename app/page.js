@@ -12,18 +12,18 @@ import {
 
 import Lenis from "lenis";
 
-import Nav from "@/components/Nav";
-import PageHeader from "@/components/common/PageHeader";
-import CommonHeader from "@/components/common/CommonHeader";
-import AbsoluteText from "@/components/common/absoluteText";
-import AnimatedImage from "@/components/common/AnimatedImage";
-import Project from "@/components/common/Project";
-import Cta from "@/components/common/cta";
+import Nav from "../components/Nav";
+import PageHeader from "../components/common/PageHeader"
+import CommonHeader from "../components/common/CommonHeader";
+import AbsoluteText from "../components/common/absoluteText";
+import AnimatedImage from "../components/common/AnimatedImage";
+import Project from "../components/common/Project";
+import Cta from "../components/common/cta";
 
 import Marquee from "react-fast-marquee";
 
 import HomePageImage from "../public/Images/w__home_2.jpg";
-import TetherCMS from "../public/Images/cms__thumb.png";
+// import TetherCMS from "../public/Images/cms__thumb.png";
 import Portfolio from "../public/Images/pp__thumb.png";
 import Kind from "../public/Images/kind__thumb.png";
 import StrongWords from "../public/Images/strong_words__thumb.png";
@@ -34,7 +34,7 @@ import Excode from "../public/Images/excode__thumb.png";
 import Birdlime from "../public/Images/birdlime__thumb.png";
 import Finance from "../public/Images/finance__thumb.png";
 
-import Transition from "@/components/common/Transition";
+import Transition from "../components/common/Transition";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();

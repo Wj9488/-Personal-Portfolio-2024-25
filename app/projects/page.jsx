@@ -10,9 +10,9 @@ import {
 
 import Link from "next/link"
 
-import Transition from "@/components/common/Transition";
-import Nav from "@/components/Nav";
-import Project from "@/components/common/Project";
+import Transition from "../../components/common/Transition";
+import Nav from "../../components/Nav";
+import Project from "../../components/common/Project";
 import PageHeader from "../../components/common/PageHeader";
 import Lenis from "lenis";
 
@@ -69,7 +69,7 @@ const ProjectsPage = () => {
           </p>
         </section>
         <section className="margin__setter mt-[5rem] pc">
-        <div className="b__top mt-[2.5rem]">
+        {/* <div className="b__top mt-[2.5rem]">
               <Project
                 imageSrc={TetherCMS}
                 projectTitle="Tether CMS"
@@ -77,7 +77,7 @@ const ProjectsPage = () => {
                 projectLabel="Idea"
                 projectLink="/idea/cms"
               />
-            </div>
+            </div> */}
             <div className="b__top">
               <Project
                 imageSrc={Portfolio}
