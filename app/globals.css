@@ -87,6 +87,9 @@ textarea:focus {
 .ic { 
     color: var(--page-bg);
 }
+.ic__bg {
+  background-color: var(--page-bg);
+}
 .svgFill {
     fill: var(--page-bg);
 }

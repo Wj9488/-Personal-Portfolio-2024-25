@@ -64,7 +64,7 @@ const AboutPage = () => {
           </p>
         </section>
 
-        <section className="mt-[5rem] lg:mt-[10rem] my-[5rem]">
+        <section className="mt-[5rem] lg:mt-[10rem] my-[5rem] margin__setter">
           <div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-2 text-lg lg:gap-4 gap-2">
             <div className="text-center">
               <p className="text-[6rem] hc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">

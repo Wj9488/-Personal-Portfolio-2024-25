@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Preloader from "@/components/common/Pre-Loader/PreLoader";
+// import Preloader from "@/components/common/Pre-Loader/PreLoader";
 import {
-  AnimatePresence,
+  // AnimatePresence,
   motion as a,
   useScroll,
   useTransform,
@@ -23,6 +23,16 @@ import Cta from "@/components/common/cta";
 import Marquee from "react-fast-marquee";
 
 import HomePageImage from "../public/Images/w__home_2.jpg";
+import TetherCMS from "../public/Images/cms__thumb.png";
+import Portfolio from "../public/Images/pp__thumb.png";
+import Kind from "../public/Images/kind__thumb.png";
+import StrongWords from "../public/Images/strong_words__thumb.png";
+import FrenchForAll from "../public/Images/french_for_all__thumb.png";
+import Array from "../public/Images/array__thumb.png";
+import ThousandLines from "../public/Images/thousand_lines__thumb.png";
+import Excode from "../public/Images/excode__thumb.png";
+import Birdlime from "../public/Images/birdlime__thumb.png";
+import Finance from "../public/Images/finance__thumb.png";
 
 import Transition from "@/components/common/Transition";
 
@@ -201,74 +211,92 @@ export default function Home() {
           <a.section className="padding__setter pt-[5rem] pb-[10rem] mb-[5rem] shadow-2xl ic bg-[#f7f7f7]"
             style={{ y: projectSectionTranslate }}
           >
-            <CommonHeader headerText="Projects & Ideas" extraCss="ic" />
-            <div className="ic__b_top mt-[2.5rem]">
+            <CommonHeader headerText="Projects, Experiences and Ideas" extraCss="ic" />
+            {/* <div className="ic__b_top mt-[2.5rem]">
               <Project
-                imageSrc={HomePageImage}
-                projectTitle="Excode 2024"
+                imageSrc={TetherCMS}
+                projectTitle="Tether CMS"
                 projectDate="2024"
-                projectLabel="Experience"
-                projectLink="https://french-lesson.com"
+                projectLabel="Idea"
+                projectLink="/idea/cms"
+              />
+            </div> */}
+            <div className="ic__b_top">
+              <Project
+                imageSrc={Portfolio}
+                projectTitle="Personal Portfolio"
+                projectDate="2024"
+                projectLabel="Design & Code"
+                projectLink="#current_website"
+              />
+            </div>
+            {/* <div className="ic__b_top">
+              <Project
+                imageSrc={Kind}
+                projectTitle="Kind Snacks Case Analysis"
+                projectDate="2024"
+                projectLabel="University Project"
+                projectLink="/project/kind-snacks"
+              />
+            </div> */}
+            <div className="ic__b_top">
+              <Project
+                imageSrc={Finance}
+                projectTitle="Finance For Managers"
+                projectDate="2024"
+                projectLabel="Design & Code"
+                projectLink="https://finance.william.services"
               />
             </div>
             <div className="ic__b_top">
               <Project
-                imageSrc={HomePageImage}
+                imageSrc={Excode}
+                projectTitle="Excode"
+                projectDate="2023"
+                projectLabel="Work Experience"
+                projectLink="/experience/excode"
+              />
+            </div>
+            <div className="ic__b_top">
+              <Project
+                imageSrc={Birdlime}
+                projectTitle="Birdlime Media"
+                projectDate="2023"
+                projectLabel="Code"
+                projectLink="https://birdlimemedia.co.uk/"
+              />
+            </div>
+            <div className="ic__b_top">
+              <Project
+                imageSrc={ThousandLines}
+                projectTitle="Thousand Lines Internship"
+                projectDate="2023"
+                projectLabel="Work Experience"
+                projectLink="/experience/thousand-lines"
+              />
+            </div>
+            <div className="ic__b_top">
+              <Project
+                imageSrc={StrongWords}
                 projectTitle="Strong Words"
                 projectDate="2023"
                 projectLabel="Design & Code"
-                projectLink="https://french-lesson.com"
+                projectLink="https://strong-words.co.uk"
               />
             </div>
             <div className="ic__b_top">
               <Project
-                imageSrc={HomePageImage}
-                projectTitle="Finance for Managers"
-                projectDate="2023"
-                projectLabel="Design & Code"
-                projectLink="https://french-lesson.com"
-              />
-            </div>
-            <div className="ic__b_top">
-              <Project
-                imageSrc={HomePageImage}
-                projectTitle="French For All"
-                projectDate="2024"
-                projectLabel="Design & Code"
-                projectLink="https://french-lesson.com"
-              />
-            </div>
-            <div className="ic__b_top">
-              <Project
-                imageSrc={HomePageImage}
+                imageSrc={Array}
                 projectTitle="Array Internship"
                 projectDate="2023"
-                projectLabel="Experience"
-                projectLink="https://french-lesson.com"
-              />
-            </div>
-            <div className="ic__b_top">
-              <Project
-                imageSrc={HomePageImage}
-                projectTitle="Finance for Managers"
-                projectDate="2023"
-                projectLabel="Design & Code"
-                projectLink="https://french-lesson.com"
-              />
-            </div>
-            <div className="ic__b_top">
-              <Project
-                imageSrc={HomePageImage}
-                projectTitle="Thousand Lines Internship"
-                projectDate="2023"
-                projectLabel="Experience"
-                projectLink="https://french-lesson.com"
+                projectLabel="Work Experience"
+                projectLink="/experience/array"
               />
             </div>
             <div className="ic__b_top ic__b_bottom">
               <Project
-                imageSrc={HomePageImage}
-                projectTitle="Finance for Managers"
+                imageSrc={FrenchForAll}
+                projectTitle="French For All"
                 projectDate="2023"
                 projectLabel="Design & Code"
                 projectLink="https://french-lesson.com"

@@ -26,7 +26,7 @@ const Nav = () => {
   }, [pathname]);
 
   return (
-    <nav className="padding__setter z-[10] sticky top-1 flex items-center justify-between my-2 transition-colors duration-1000 ease-in-out">
+    <nav className="padding__setter z-[10] ic__bg flex items-center justify-between my-2 transition-colors duration-1000 ease-in-out">
       <div className="rounded-xl z-10">
         <Link className="lg:text-lg lg:font-normal flex" href={"/"}>
           <p className="font-medium hc">William.</p>
