@@ -10,22 +10,16 @@ const Excode = () => {
       experienceRole="Python Workshop Leader"
       experienceType="Tutoring"
       mainText="
-      Led a class of 26 students through an 8 week Python bootcamp. I was tasked with making sure that students learned the basics of Python through applying the language to a variety of in class exercises. 
+      I led a class of 26 students through an 8-week Python bootcamp at Excode, 
+      the largest student-led bootcamp in the country run entirely by volunteers. 
+      My primary responsibility was to ensure students grasped the basics of Python 
+      by applying the language to various in-class exercises. 
       <br />
       <br />
-      Key achievements:
-      <br />
-      <br />
-      - Strengthened my understanding of Python
-      <br />
-      <br />
-      - Developed my teaching ability in both 1:1 and in class contexts. 
-      <br />
-      <br />
-      - Strengthened my understanding of Outlook Mail and Google Colab
-      <br />
-      <br />
-      Excode is the largest student led bootcamp in the country led entirely by volunteers. 
+      Throughout this experience, 
+      I significantly strengthened my understanding of Python, honed my teaching skills in 
+      both one-on-one and classroom settings, and enhanced my proficiency with tools such 
+      as Outlook Mail and Google Colab.
       "
     />
   )

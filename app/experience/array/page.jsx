@@ -5,27 +5,22 @@ import ShowcasePageTemplate from "../../../components/common/ShowcasePageTemplat
 const ArrayInternship = () => {
   return (
     <ShowcasePageTemplate 
-      headingText="Array" 
+      headingText="Array London" 
       experienceDuration="2 Months"
       experienceRole="Frontend Developer"
       experienceType="Internship"
       mainText="
-        Developed custom Front Ends using Next.js 13, tailwind CSS and Sanity CMS. I was tasked with designing and developing a custom website and newsletter template for a small magazine business wishing to diversify their product offering and modernise their brand.
-        <br />
-        <br />
-        Key Achievements:
-        <br />
-        <br />
-        - Strengthened my understanding of Next Js and Sanity CMS
-        <br />
-        <br />
-        - Gave me a valuabe taste of what working in a highly specialised agency is like.
-        <br />
-        <br />
-        - Strengthened my knowledge of Figma 
-        <br />
-        <br />
-        - Strengthened my understanding of modern agency workflows including Github
+      In a separate project, I developed custom front ends using Next.js 13, 
+      Tailwind CSS, and Sanity CMS for a small magazine business aiming to 
+      diversify its product offering and modernise its brand. 
+      <br />
+      <br />
+      I was responsible 
+      for designing and developing a custom website and newsletter template. 
+      This experience significantly strengthened my understanding of Next.js and 
+      Sanity CMS, improved my proficiency with Figma, and provided me with a valuable 
+      glimpse into the workings of a highly specialised agency. Furthermore, I 
+      gained a deeper understanding of modern agency workflows, including the use of GitHub.
       "
     />
   )

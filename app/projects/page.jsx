@@ -204,7 +204,7 @@ const ProjectsPage = () => {
             style={{ y: footerCtaButtonTranslate }}
           >
             <Link href={"/contact"}>
-              <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 global__bg rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
+              <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
                 Get Started
                 <svg
                   className="xl:h-[35px] xl:w-[35px] lg:h-[30px] lg:w-[30px] h-[25px] w-[25px]"

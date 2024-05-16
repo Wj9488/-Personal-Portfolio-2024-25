@@ -63,17 +63,17 @@ const AlternativeMenu = () => {
 
   return (
     <>
-      <div
-        className="hover:cursor-pointer lg:hidden fixed top-2 right-2 rounded-full p-5 global__bg ic shadow-2xl z-50"
+      <button
+        className="hover:cursor-pointer lg:hidden fixed top-2 right-2 rounded-full p-5 ic shadow-2xl z-50"
         onClick={toggleMenu}
         id="MobileOnly"
       >
         <p className="text-base font-medium">{isMenuOpen ? "Close" : "Menu"}</p>
-      </div>
+      </button>
       <AnimatePresence>
         {isVisible && (
-          <a.div
-            className="hover:cursor-pointer hidden lg:block fixed top-10 right-2 rounded-full p-5 global__bg ic shadow-2xl z-50"
+          <a.button
+            className="hover:cursor-pointer hidden lg:block fixed top-10 right-2 rounded-full p-5 ic shadow-2xl z-50"
             initial="initial"
             animate="visible"
             exit="initial"
@@ -84,7 +84,7 @@ const AlternativeMenu = () => {
             <p className="text-base font-medium">
               {isMenuOpen ? "Close" : "Menu"}
             </p>
-          </a.div>
+          </a.button>
         )}
       </AnimatePresence>
       <AnimatePresence>

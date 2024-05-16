@@ -74,7 +74,7 @@ const ContactPage = () => {
               <p class="my-[1.25rem] pc">Your Message <sup>*</sup></p>
               <textarea class="accent__col_placeholder rounded-2xl text-lg py-2 px-4 bg-transparent border b" required placeholder="Message..." name="comment" id="comment" rows="3"></textarea>
               <input name="_formsubmit_id" type="text" style={{display:"none"}}/>
-              <input class="hvr p-10 global__bg rounded-[100%] ic font-medium flex gap-1 text-xl hvr px-4 cta__border mt-[1.25rem] w-[fit-content] hover:cursor-pointer" type="submit" value="Send Message"/>
+              <input class="hvr bc__bg p-10 rounded-[100%] ic font-medium flex gap-1 text-xl hvr px-4 cta__border mt-[1.25rem] w-[fit-content] hover:cursor-pointer" type="submit" value="Send Message"/>
           </form>
           </a.div>
         </div>

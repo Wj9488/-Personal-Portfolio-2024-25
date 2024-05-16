@@ -54,9 +54,11 @@ const Project = ({
             <Image
               src={imageSrc}
               alt="Project Image"
-              className="shadow-2xl rounded"
-              width={400}
-              height={400}
+              className="shadow-2xl rounded lg:block hidden"
+              width={500}
+              height={500}
+              quality={80}
+              loading="eager"
             />
           </a.div>
         )}

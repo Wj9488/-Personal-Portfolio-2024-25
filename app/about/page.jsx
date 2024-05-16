@@ -46,21 +46,21 @@ const AboutPage = () => {
         </header>
         <section className="margin__setter">
           <p className="pc mt-[5rem] text-2xl lg:text-3xl xl:text-4xl lg:ml-[40%]">
-            <span className="opacity-0">_____</span>I love turning my design
-            ideas into real products that people can use. It's very satisfying
-            to use my skills to help clients get great websites.
+            <span className="opacity-0">_____</span>I am passionate about
+            transforming design concepts into functional products that users can
+            enjoy. Leveraging my skills to create exceptional websites for
+            clients is incredibly rewarding.
             <br />
             <br />
-            I started with Python, but found it tough at first. This led me to
-            learn HTML, which really got me into coding and web development.
-            Since then, I've been focusing on front-end development, especially
-            using the Next.js framework.
+            My journey began with Python, which initially posed a challenge.
+            This experience led me to explore HTML, sparking my interest in
+            coding and web development. Since then, I have concentrated on
+            front-end development, particularly with the Next.js framework.
             <br />
             <br />
-            After I got better at understanding programming, I went back to
-            Python. Now, I even teach workshops in the UK’s biggest student-run
-            Python bootcamp, called ExCode. Apart from all this, I also enjoy
-            skiing, trading cryptocurrencies, and going to the gym.
+            As my programming knowledge grew, I revisited Python and ended up as a workshop leader at ExCode, the UK’s largest student-run Python bootcamp.
+            In addition to my professional pursuits, I enjoy skiing, trading
+            cryptocurrencies, and going to the gym.
           </p>
         </section>
 
@@ -137,7 +137,7 @@ const AboutPage = () => {
             style={{ y: footerCtaButtonTranslate }}
           >
             <Link href={"/contact"}>
-              <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 global__bg rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
+              <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
                 Get Started
                 <svg
                   className="xl:h-[35px] xl:w-[35px] lg:h-[30px] lg:w-[30px] h-[25px] w-[25px]"

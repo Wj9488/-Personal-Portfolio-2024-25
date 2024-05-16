@@ -13,10 +13,10 @@ const Footer = () => {
     <footer className="relative mt-[5rem] mb-[2.5rem] b__top text-lg margin__setter pc"
     >
       <div className="flex items-center justify-between pt-1">
-        <p className="hc font-medium">William.Jones</p>
+        <p className="pc font-medium">William.Jones</p>
         <ul className="flex items-center justify-between gap-10 px-4 py-1 rounded-2xl">
           <li className="lg:text-lg">
-            <button className="hover:opacity-50 transition-all duration-200" onClick={scrollTop}>Back to top</button>
+            <p className="hover:opacity-50 hover:cursor-pointer transition-all duration-200" onClick={scrollTop}>Back to top</p>
           </li>
           <li className="lg:block">
             <Link className="hidden lg:block hover:opacity-50 transition-all duration-200" href={"/projects"}>Projects</Link>

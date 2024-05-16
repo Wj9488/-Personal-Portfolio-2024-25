@@ -10,22 +10,17 @@ const ThousandLines = () => {
       experienceRole="Frontend Developer"
       experienceType="Internship"
       mainText="
-      Helped to develop a fully custom website with wordpress backend for Birdlime Media UK, a podcast and video production company. 
-      <br />
-      <br />
-      Key Achievements:
-      <br />
-      <br />
-      - Developed a good understanding of Wordpress as a CMS backend
-      <br />
-      <br />
-      - Developed a basic understanding of the PHP programming language
-      <br />
-      <br />
-      - Gained valuable knowledge of the inner workings of a boutique web design agency from client onboarding to project delivery. 
-      <br />
-      <br />
-      - Strengthened my knowledge of SASS (CSS)
+      During my internship, I contributed to the development of a fully custom
+       website with a WordPress backend
+       for Birdlime Media UK, a podcast and video production company. 
+       <br />
+       <br />
+       This 
+       project allowed me to develop a strong understanding of WordPress 
+       as a CMS backend, gain a basic knowledge of PHP programming, and 
+       enhance my proficiency in SASS (CSS). Additionally, I acquired valuable 
+       insights into the operations of a boutique web design agency, from client 
+       onboarding to project delivery.
       "
     />
   );

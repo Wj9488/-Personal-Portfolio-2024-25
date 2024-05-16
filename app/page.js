@@ -45,11 +45,11 @@ export default function Home() {
     [0, 1],
     ["150px", "-100px"]
   );
-  const projectSectionTranslate = useTransform(
-    scrollYProgress,
-    [0, 1],
-    ["325px", "-100px"]
-  );
+  // const projectSectionTranslate = useTransform(
+  //   scrollYProgress,
+  //   [0, 1],
+  //   ["325px", "-100px"]
+  // );
   const footerCtaTranslate = useTransform(
     scrollYProgress,
     [0, 1],
@@ -208,10 +208,10 @@ export default function Home() {
             </a.div>
           </section>
 
-          <a.section className="padding__setter pt-[5rem] pb-[10rem] mb-[5rem] shadow-2xl ic bg-[#f7f7f7]"
-            style={{ y: projectSectionTranslate }}
+          <a.section className="padding__setter py-[5rem] bg-[#dddddd]"
+            // style={{ y: projectSectionTranslate }}
           >
-            <CommonHeader headerText="Projects, Experiences and Ideas" extraCss="ic" />
+            <CommonHeader headerText="Projects, Experiences and Ideas" extraCss="" />
             {/* <div className="ic__b_top mt-[2.5rem]">
               <Project
                 imageSrc={TetherCMS}
@@ -221,7 +221,7 @@ export default function Home() {
                 projectLink="/idea/cms"
               />
             </div> */}
-            <div className="ic__b_top">
+            <div className="b__top">
               <Project
                 imageSrc={Portfolio}
                 projectTitle="Personal Portfolio"
@@ -239,7 +239,7 @@ export default function Home() {
                 projectLink="/project/kind-snacks"
               />
             </div> */}
-            <div className="ic__b_top">
+            <div className="b__top">
               <Project
                 imageSrc={Finance}
                 projectTitle="Finance For Managers"
@@ -248,7 +248,7 @@ export default function Home() {
                 projectLink="https://finance.william.services"
               />
             </div>
-            <div className="ic__b_top">
+            <div className="b__top">
               <Project
                 imageSrc={Excode}
                 projectTitle="Excode"
@@ -257,7 +257,7 @@ export default function Home() {
                 projectLink="/experience/excode"
               />
             </div>
-            <div className="ic__b_top">
+            <div className="b__top">
               <Project
                 imageSrc={Birdlime}
                 projectTitle="Birdlime Media"
@@ -266,7 +266,7 @@ export default function Home() {
                 projectLink="https://birdlimemedia.co.uk/"
               />
             </div>
-            <div className="ic__b_top">
+            <div className="b__top">
               <Project
                 imageSrc={ThousandLines}
                 projectTitle="Thousand Lines Internship"
@@ -275,7 +275,7 @@ export default function Home() {
                 projectLink="/experience/thousand-lines"
               />
             </div>
-            <div className="ic__b_top">
+            <div className="b__top">
               <Project
                 imageSrc={StrongWords}
                 projectTitle="Strong Words"
@@ -284,7 +284,7 @@ export default function Home() {
                 projectLink="https://strong-words.co.uk"
               />
             </div>
-            <div className="ic__b_top">
+            <div className="b__top">
               <Project
                 imageSrc={Array}
                 projectTitle="Array Internship"
@@ -293,7 +293,7 @@ export default function Home() {
                 projectLink="/experience/array"
               />
             </div>
-            <div className="ic__b_top ic__b_bottom">
+            <div className="b__top b__bottom">
               <Project
                 imageSrc={FrenchForAll}
                 projectTitle="French For All"
@@ -411,7 +411,7 @@ export default function Home() {
               style={{ y: footerCtaButtonTranslate }}
             >
               <Link href={"/contact"}>
-                <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 global__bg rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
+                <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
                   Get Started
                   <svg
                     className="xl:h-[35px] xl:w-[35px] lg:h-[30px] lg:w-[30px] h-[25px] w-[25px]"

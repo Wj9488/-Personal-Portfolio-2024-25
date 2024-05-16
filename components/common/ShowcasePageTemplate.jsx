@@ -57,7 +57,7 @@ const ShowcasePageTemplate = ({headingText, mainText, experienceType, experience
               <p className="pc font-medium">{experienceDuration}</p>
             </div>
           </div>
-          <p className="pc mt-[2.5rem] text-2xl lg:text-3xl xl:text-4xl lg:ml-[40%]" dangerouslySetInnerHTML={{ __html: mainText }}>
+          <p className="pc mt-[2.5rem] text-2xl lg:text-3xl lg:ml-[40%]" dangerouslySetInnerHTML={{ __html: mainText }}>
           </p>
         </section>
         <section className="relative py-[5rem]">
@@ -104,7 +104,7 @@ const ShowcasePageTemplate = ({headingText, mainText, experienceType, experience
               style={{ y: footerCtaButtonTranslate }}
             >
               <Link href={"/contact"}>
-                <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 global__bg rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
+                <button className="hvr flex gap-1 pc p-12 lg:p-14 xl:p-16 rounded-[100%] ic font-medium text-xl lg:text-2xl xl:text-3xl">
                   Get Started
                   <svg
                     className="xl:h-[35px] xl:w-[35px] lg:h-[30px] lg:w-[30px] h-[25px] w-[25px]"

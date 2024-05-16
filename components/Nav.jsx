@@ -11,7 +11,10 @@ const Nav = () => {
   const pathMap = {
     "/projects": "Projects",
     "/about": "About",
-    "/contact": "Contact"
+    "/contact": "Contact",
+    "/experience/thousand-lines": "Experience",
+    "/experience/excode": "Experience",
+    "/experience/array": "Experience"
   };
 
   // Function to derive the display word from the pathname

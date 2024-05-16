@@ -1,11 +1,29 @@
+"use client"
+
+import { motion as a } from 'framer-motion';
 
 const LargeHeader = ({ headerText, extraCss }) => {
+  const words = headerText.split(' ');
+
+  const variants = {
+    hidden: { y: 30, opacity: 0},
+    visible: { y: 0, opacity: 1}
+  };
 
   return (
-    <h1
-      className={`text-[5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] leading-[.8] ${extraCss}`}
-    >
-        <span>{headerText}</span>
+    <h1 className={`text-[5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] leading-[.8] overflow-y-hidden pb-[1.5rem] ${extraCss}`}>
+      {words.map((word, index) => (
+        <a.span
+          key={index}
+          initial="hidden"
+          animate="visible"
+          variants={variants}
+          transition={{ duration: 0.5, delay: 0.75 + index * 0.1 }}
+          style={{ display: 'inline-block' }}
+        >
+          {word}&nbsp;
+        </a.span>
+      ))}
     </h1>
   );
 };

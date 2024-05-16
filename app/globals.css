@@ -3,10 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --highlight-col: #C0FF00;
-  --global-col: #BCFFB1;
-  --page-bg: #1A3C23;
-  --transition-bg: #112511; 
+  --highlight-col: #000;
+  --global-col: #494949;
+  --page-bg: #fafafa;
+  --transition-bg: #c0c0c0;
+  --button-bg: #4361ee; 
 }
 
 body {
@@ -23,6 +24,9 @@ h6 {
 p,button,li {
   line-height: 1.25;
   font-size: 1.125rem;
+}
+button {
+  background-color: var(--button-bg);
 }
 input:focus {
   border: 2px solid var(--global-col);
@@ -77,7 +81,7 @@ textarea:focus {
 
 /* (Highlight Colour) */
 .hc {
-    color: var(--highlight-col);
+    color: var(--button-bg);
 }
 /* (Primary Colour) */
 .pc { 
@@ -89,6 +93,10 @@ textarea:focus {
 }
 .ic__bg {
   background-color: var(--page-bg);
+}
+/* Button Colour Background */
+.bc__bg {
+  background-color: var(--button-bg);
 }
 .svgFill {
     fill: var(--page-bg);

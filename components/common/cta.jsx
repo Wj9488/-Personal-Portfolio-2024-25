@@ -4,7 +4,7 @@ const Cta = ({ linkPath, text, extraCss }) => {
   return (
     <Link href={linkPath}>
       <button
-        className={`hvr p-10 global__bg rounded-[100%] ic font-medium flex gap-1 ${extraCss}`}
+        className={`hvr p-10 rounded-[100%] ic font-medium flex gap-1 ${extraCss}`}
       >
         {text}
         <svg

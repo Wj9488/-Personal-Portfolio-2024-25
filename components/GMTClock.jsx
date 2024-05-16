@@ -34,7 +34,7 @@ const Clock = () => {
   return (
     <div>
       <p className="opacity-50 lg:text-lg text-sm mb-2 pc">Local Time (UK)</p>
-      <p className="text-[3rem] lg:text-[4rem] leading-[1] lowercase pc">
+      <p className="text-[3rem] lg:text-[4rem] leading-[1] lowercase pc font-light">
         {timeString}
       </p>
     </div>
