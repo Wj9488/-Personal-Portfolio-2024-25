@@ -26,10 +26,17 @@ const WJ = localFont({
 })
 
 export const metadata = {
-  title: "William.Jones",
+  title: {
+    template: 'William.%s',
+    default: 'William.Jones',  
+  },
+  openGraph: {
+    title: 'William.Jones',
+    description: "Get the website your small business deserves. Helping professionals and business owners get a modern, responsive and creative website.",
+  },
   description: "Get the website your small business deserves. Helping professionals and business owners get a modern, responsive and creative website.",
   icons: {
-    icon: '/icon.png',
+    icon: '/icon.jpg',
   },
 };
 

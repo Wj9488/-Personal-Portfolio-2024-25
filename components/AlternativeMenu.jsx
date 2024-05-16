@@ -63,13 +63,17 @@ const AlternativeMenu = () => {
 
   return (
     <>
-      <button
+      <a.button
         className="hover:cursor-pointer lg:hidden fixed top-2 right-2 rounded-full p-5 ic shadow-2xl z-50"
         onClick={toggleMenu}
         id="MobileOnly"
+        initial="initial"
+        animate="visible"
+        exit="initial"
+        variants={buttonVariants}
       >
         <p className="text-base font-medium">{isMenuOpen ? "Close" : "Menu"}</p>
-      </button>
+      </a.button>
       <AnimatePresence>
         {isVisible && (
           <a.button

@@ -13,6 +13,7 @@ import Lenis from "lenis";
 
 import Marquee from "react-fast-marquee";
 
+
 const AboutPage = () => {
   const { scrollYProgress } = useScroll();
 
