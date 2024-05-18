@@ -10,7 +10,7 @@ const Footer = () => {
     });
   };
   return (
-      <footer className="relative mt-[5rem] mb-[2.5rem] text-lg padding__setter pc">
+      <footer className="relative pt-[5rem] mb-[2.5rem] text-lg padding__setter pc">
         <div className="flex items-center justify-between pt-1 b__top">
           <p className="font-medium">William.<span className="hc">Jones</span></p>
           <ul className="flex items-center justify-between gap-2 lg:gap-10 px-4 py-1 rounded-2xl">
