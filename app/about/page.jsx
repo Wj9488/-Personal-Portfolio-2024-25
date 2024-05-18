@@ -46,7 +46,7 @@ const AboutPage = () => {
           <PageHeader headerText="About me" />
         </header>
         <section className="margin__setter">
-          <p className="pc mt-[5rem] text-2xl lg:text-3xl xl:text-4xl lg:ml-[40%]">
+          <p className="pc mt-[5rem] text-2xl lg:text-3xl lg:ml-[40%]">
             <span className="opacity-0">_____</span>I am passionate about
             transforming design concepts into functional products that users can
             enjoy. Leveraging my skills to create exceptional websites for
@@ -68,25 +68,25 @@ const AboutPage = () => {
         <section className="mt-[5rem] lg:mt-[10rem] my-[5rem] margin__setter">
           <div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-2 text-lg lg:gap-4 gap-2">
             <div className="text-center">
-              <p className="text-[6rem] hc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
+              <p className="text-[6rem] pc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
                 3
               </p>
               <p className=" pc">Projects Completed</p>
             </div>
             <div className="text-center">
-              <p className="text-[6rem] hc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
+              <p className="text-[6rem] pc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
                 2.5
               </p>
               <p className=" pc">Years of Coding Experience</p>
             </div>
             <div className="text-center">
-              <p className="text-[6rem] hc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
+              <p className="text-[6rem] pc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
                 1
               </p>
               <p className=" pc">Bootcamps Taught</p>
             </div>
             <div className="text-center">
-              <p className="text-[6rem] hc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
+              <p className="text-[6rem] pc lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] accent__col_text mb-[1.25rem]">
                 5
               </p>
               <p className=" pc">Coding Languages & Frameworks</p>

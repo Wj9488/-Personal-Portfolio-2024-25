@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --highlight-col: #000;
+  --heading-col: #000;
   --global-col: #494949;
   --page-bg: #fafafa;
   --transition-bg: #c0c0c0;
@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--highlight-col);
+  color: var(--heading-col);
 }
 p,button,li {
   line-height: 1.25;
@@ -76,6 +76,17 @@ textarea:focus {
 .global__bg {
   background-color: var(--global-col);
 }
+/* Inverse Colour Background */
+.ic__bg {
+  background-color: var(--page-bg);
+}
+/* Button Colour Background */
+.bc__bg {
+  background-color: var(--button-bg);
+}
+.transition__bg {
+  background-color: var(--transition-bg);
+}
 
 /* COLOURS */
 
@@ -91,18 +102,8 @@ textarea:focus {
 .ic { 
     color: var(--page-bg);
 }
-.ic__bg {
-  background-color: var(--page-bg);
-}
-/* Button Colour Background */
-.bc__bg {
-  background-color: var(--button-bg);
-}
 .svgFill {
     fill: var(--page-bg);
-}
-.transition__bg {
-    background-color: var(--transition-bg);
 }
 .ic__b_top {
   border-top: 1px solid var(--page-bg);

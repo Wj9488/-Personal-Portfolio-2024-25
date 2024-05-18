@@ -4,7 +4,7 @@ import localFont from "next/font/local"
 import Footer from '../components/Footer';
 import AlternativeMenu from '../components/AlternativeMenu';
 
-const WJ = localFont({
+const Montreal = localFont({
   src: [
     {
       path: "./Fonts/NeueMontreal-Bold.otf",
@@ -43,7 +43,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={WJ.className}>
+      <body className={Montreal.className}>
         <AlternativeMenu />
         {children}
         <Footer />
