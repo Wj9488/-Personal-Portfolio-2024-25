@@ -8,6 +8,7 @@
   --page-bg: #fafafa;
   --transition-bg: #c0c0c0;
   --button-bg: #4361ee; 
+  --lighter-bg: #dddddd;
 }
 
 body {
@@ -86,6 +87,10 @@ textarea:focus {
 }
 .transition__bg {
   background-color: var(--transition-bg);
+}
+/* Lighter Background */
+.l__bg {
+  background-color: var(--lighter-bg);
 }
 
 /* COLOURS */

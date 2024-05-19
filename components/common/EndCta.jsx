@@ -26,7 +26,7 @@ const EndCta = ({ initialCtaTranslate, endCtaTranslate, initialButtonTranslate, 
     [initialButtonTranslate, endButtonTranslate]
   );
   return (
-    <section className="relative py-[7.5rem]">
+    <section className="relative py-[7.5rem] 2xl:py-[10rem]">
       <div className="z-[-10]">
         <Marquee>
           <p className="pc text-[16rem] lg:text-[22.5rem] xl:text-[30rem] leading-[.85] overflow-y-hidden opacity-[0.025] uppercase">

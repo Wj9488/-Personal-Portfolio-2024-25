@@ -44,21 +44,6 @@ export default function Home() {
     [0, 1],
     ["150px", "-100px"]
   );
-  // const projectSectionTranslate = useTransform(
-  //   scrollYProgress,
-  //   [0, 1],
-  //   ["325px", "-100px"]
-  // );
-  const footerCtaTranslate = useTransform(
-    scrollYProgress,
-    [0, 1],
-    ["200px", "-50px"]
-  );
-  const footerCtaButtonTranslate = useTransform(
-    scrollYProgress,
-    [0, 1],
-    ["400px", "-100px"]
-  );
 
   useEffect(() => {
     const lenis = new Lenis();
@@ -158,7 +143,7 @@ export default function Home() {
                   src={HomePageImage}
                   width="400"
                   height="600"
-                  className="w-[full] h-[auto] xl:w-[400px] xl:h-[600px] 2xl:w-[550px] 2xl:h-[auto] rounded mt-[2.5rem] mb-[2.5rem] lg:my-[2.5rem] z-[5]"
+                  className="w-[full] h-[auto] xl:w-[400px] xl:h-[600px] 2xl:w-[600px] 2xl:h-[auto] rounded mt-[2.5rem] mb-[2.5rem] lg:my-[2.5rem] z-[5]"
                 />
               </a.div>
               <p className="pc mb-[5rem] lg:w-[25%] xl:w-[30%] 2xl:w-[25%] lg:order-1">
@@ -207,7 +192,7 @@ export default function Home() {
             </a.div>
           </section>
 
-          <a.section className="padding__setter py-[5rem] bg-[#dddddd]"
+          <a.section className="padding__setter pt-[2.5rem] pb-[5rem] l__bg"
             // style={{ y: projectSectionTranslate }}
           >
             <CommonHeader headerText="Projects, Experiences and Ideas" extraCss="" />
@@ -310,7 +295,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="mt-[5rem] grid grid-cols-2 lg:gap-12 gap-4 lg:grid-cols-4 grid-rows-1 text-lg py-[1rem] pc">
+          <div className="mt-[5rem] 2xl:mb-[5rem] grid grid-cols-2 lg:gap-12 gap-4 lg:grid-cols-4 grid-rows-1 text-lg py-[1rem] pc">
             <div>
               <p className="opacity-50 mb-2 lg:text-lg text-sm">
                 Coding Languages
