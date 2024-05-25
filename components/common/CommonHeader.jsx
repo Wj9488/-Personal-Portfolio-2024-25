@@ -35,7 +35,7 @@ const CommonHeader = ({ headerText, extraCss }) => {
   return (
     <h1
       ref={ref}
-      className={`${Telegraf.className} text-[3.25rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem] leading-[1] my-[2.5rem] ${extraCss}`}
+      className={`${Telegraf.className} text-[3.5rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem] leading-[1] my-[2.5rem] ${extraCss}`}
     >
       {words.map((word, index) => (
         <a.span
