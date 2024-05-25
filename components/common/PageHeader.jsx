@@ -2,6 +2,17 @@
 
 import { motion as a } from 'framer-motion';
 
+import localFont from "next/font/local"
+
+const Telegraf = localFont({
+  src: [
+    {
+      path: "./ComponentFonts/PPTelegraf-Regular.otf",
+      weight: "600"
+    },
+  ]
+})
+
 const LargeHeader = ({ headerText, extraCss }) => {
   const words = headerText.split(' ');
 
@@ -11,7 +22,7 @@ const LargeHeader = ({ headerText, extraCss }) => {
   };
 
   return (
-    <h1 className={`text-[5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] leading-[.8] overflow-y-hidden pb-[1.5rem] ${extraCss}`}>
+    <h1 className={`${Telegraf.className} pt-3 text-[5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] leading-[.8] overflow-y-hidden pb-[1.5rem] ${extraCss}`}>
       {words.map((word, index) => (
         <a.span
           key={index}

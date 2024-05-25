@@ -3,6 +3,7 @@ import './globals.css'
 import localFont from "next/font/local"
 import Footer from '../components/Footer';
 import AlternativeMenu from '../components/AlternativeMenu';
+import ProgressTracker from "../components/ProgressTracker"; 
 
 const Montreal = localFont({
   src: [
@@ -44,8 +45,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={Montreal.className}>
-        <AlternativeMenu />
-        {children}
+        {/* <ProgressTracker /> */}
+        <AlternativeMenu /> 
+          {children}
         <Footer />
       </body>
     </html>

@@ -31,7 +31,7 @@ const Project = ({
   return (
     <Link href={projectLink}>
       <div
-        className="py-[1.25rem] grid grid-cols-3 items-center transition-all duration-400 ease-in-out hover:px-[20px]"
+        className="py-[1.25rem] grid grid-cols-3 items-center transition-all duration-400 ease-in-out hover:px-[20px] pc"
         onMouseMove={handleMouseMove}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

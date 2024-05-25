@@ -23,7 +23,7 @@ export default function AnimatedImage({ src, height, width, className }) {
                 placeholder='blur'
                 width={width}
                 height={height}
-                className={`${className} opacity-100`} 
+                className={`${className} opacity-90`} 
             />
         </a.div>
     );

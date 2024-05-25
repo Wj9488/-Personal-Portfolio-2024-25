@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --heading-col: #000;
-  --global-col: #494949;
-  --page-bg: #fafafa;
-  --transition-bg: #c0c0c0;
-  --button-bg: #4361ee; 
-  --lighter-bg: #dddddd;
+  --heading-col: #d3d3d3;
+  --global-col: #b8b8b8;
+  --page-bg: #070707;
+  --transition-bg: #2c2c2c;
+  --button-bg: #a1ff0a; 
+  --lighter-bg: #292929;
 }
-
+/* fb5607 */
 body {
   background-color: var(--page-bg);
 }

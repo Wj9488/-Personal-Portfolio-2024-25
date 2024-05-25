@@ -3,6 +3,17 @@
 import { motion as a, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
+import localFont from "next/font/local"
+
+const Telegraf = localFont({
+  src: [
+    {
+      path: "./ComponentFonts/PPTelegraf-Regular.otf",
+      weight: "600"
+    },
+  ]
+})
+
 const CommonHeader = ({ headerText, extraCss }) => {
   const controls = useAnimation();
   const ref = useRef(null);
@@ -24,7 +35,7 @@ const CommonHeader = ({ headerText, extraCss }) => {
   return (
     <h1
       ref={ref}
-      className={`text-[3.25rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem] leading-[1] my-[2.5rem] ${extraCss}`}
+      className={`${Telegraf.className} text-[3.25rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[7rem] leading-[1] my-[2.5rem] ${extraCss}`}
     >
       {words.map((word, index) => (
         <a.span
