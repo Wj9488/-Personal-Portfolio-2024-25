@@ -7,7 +7,7 @@ import { motion as a } from "framer-motion";
 import { opacity } from "./common/Pre-Loader/anim";
 
 const Nav = () => {
-  const pathname = usePathname(); // Use the usePathname hook
+  const pathname = usePathname();  
   const pathMap = {
     "/projects": "Projects",
     "/about": "About",
@@ -17,14 +17,11 @@ const Nav = () => {
     "/experience/array": "Array",
   };
 
-  // Function to derive the display word from the pathname
   const getDisplayWord = (path) => pathMap[path] || "Jones";
 
-  // State for the current word to display
   const [currentWord, setCurrentWord] = useState(getDisplayWord(pathname));
 
   useEffect(() => {
-    // Update the display word when the pathname changes
     setCurrentWord(getDisplayWord(pathname));
   }, [pathname]);
 

@@ -22,7 +22,7 @@ const LargeHeader = ({ headerText, extraCss }) => {
   };
 
   return (
-    <h1 className={`${Telegraf.className} pt-3 3xl:pt-6 text-[5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] 3xl:text-[18rem] leading-[.8] overflow-y-hidden pb-[1.5rem] ${extraCss}`}>
+    <h1 className={`${Telegraf.className} pt-3 text-[5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] leading-[.8] overflow-y-hidden pb-[1.5rem] ${extraCss}`}>
       {words.map((word, index) => (
         <a.span
           key={index}

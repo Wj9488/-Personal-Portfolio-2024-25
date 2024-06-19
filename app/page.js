@@ -124,7 +124,7 @@ export default function Home() {
         <Nav />
         <div>
           <header className="margin__setter">
-            <div className="mt-[5rem]">
+            <div className="mt-[5rem] 3xl:mt-[10rem]">
               <PageHeader headerText="Creative front end developer." />
             </div>
             <p className="pc mt-[2.5rem] text-4xl lg:text-3xl lg:ml-[40%]">
@@ -143,7 +143,7 @@ export default function Home() {
                   src={HomePageImage}
                   width="400"
                   height="600"
-                  className="w-[full] h-[auto] xl:w-[400px] xl:h-[600px] 2xl:w-[600px] 2xl:h-[auto] rounded mt-[2.5rem] mb-[2.5rem] lg:my-[2.5rem] z-[5]"
+                  className="w-[full] h-[auto] xl:w-[400px] xl:h-[600px] 2xl:w-[600px] 3xl:w-[800px] 2xl:h-[auto] rounded mt-[2.5rem] mb-[2.5rem] lg:my-[2.5rem] z-[5]"
                 />
               </a.div>
               <p className="pc mb-[5rem] lg:w-[25%] xl:w-[30%] 2xl:w-[25%] lg:order-1">

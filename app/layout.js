@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import AlternativeMenu from '../components/AlternativeMenu';
 import ProgressTracker from "../components/ProgressTracker"; 
 
-const Montreal = localFont({
+const NeueMontreal = localFont({
   src: [
     {
       path: "./Fonts/NeueMontreal-Bold.otf",
@@ -44,7 +44,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={Montreal.className}>
+      <body className={NeueMontreal.className}>
         {/* <ProgressTracker /> */}
         <AlternativeMenu /> 
           {children}

@@ -66,7 +66,7 @@ const AboutPage = () => {
             />
           </a.div>
 
-        <section className="relative padding__setter l__bg py-[5rem]  z-10 overflow-y-hidden">
+        <section className="relative padding__setter l__bg py-[5rem] 3xl:py-[10rem] z-10 overflow-y-hidden">
 
         <a.div className="hidden lg:block lg:absolute lg:left-0 lg:bottom-0"
           style={{ y: imageTransform }}
@@ -76,7 +76,7 @@ const AboutPage = () => {
             width={400}
             height="auto"
             placeholder="blur"
-            className="opacity-90 "
+            className="opacity-90 3xl:w-[500px] 3xl:h-[auto]"
           />
         </a.div>
           <p className="pc text-2xl lg:text-3xl lg:ml-[40%]">

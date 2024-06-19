@@ -27,7 +27,7 @@ const ShowcasePageTemplate = ({headingText, mainText, experienceType, experience
     <Nav />
     <main className="">
 
-        <header className="my-[5rem] margin__setter ml-[1.25rem] lg:ml-[7.5rem]">
+        <header className="my-[5rem] 3xl:my-[10rem] margin__setter ml-[1.25rem] lg:ml-[7.5rem]">
             <PageHeader headerText={headingText}/>
         </header>
         <section className="margin__setter">
@@ -44,17 +44,19 @@ const ShowcasePageTemplate = ({headingText, mainText, experienceType, experience
               <p className="pc opacity-50">Duration:{" "}</p>
               <p className="pc font-medium">{experienceDuration}</p>
             </div>
-          </div>
+          </div>`  `
           <p className="pc mt-[2.5rem] text-2xl lg:text-3xl lg:ml-[40%]" dangerouslySetInnerHTML={{ __html: mainText }}>
           </p>
         </section>
-        <EndCta 
-            initialCtaTranslate="125px"
-            endCtaTranslate="-50px"
+        <div className="3xl:mt-[10rem]">
+          <EndCta 
+              initialCtaTranslate="125px"
+              endCtaTranslate="-50px"
 
-            initialButtonTranslate="175px"
-            endButtonTranslate="-100px"
-        />
+              initialButtonTranslate="175px"
+              endButtonTranslate="-100px"
+          />
+        </div>
     </main>
     </Transition>
   )

@@ -8,7 +8,7 @@ import {
 } from "framer-motion";
 
 import Marquee from "react-fast-marquee";
-import PageHeader from "../common/PageHeader"
+import CtaHeader from "../common/CtaHeader"
 
 import Link from "next/link"
 
@@ -39,7 +39,7 @@ const EndCta = ({ initialCtaTranslate, endCtaTranslate, initialButtonTranslate, 
         className="absolute top-[-10%] mt-[10rem] lg:w-[70%] xl:w-[60%] lg:ml-[10rem] ml-[1.25rem] mb-[2.5rem]"
         style={{ y: footerCtaTranslate }}
       >
-        <PageHeader headerText="Let's work together." />
+        <CtaHeader headerText="Let's work together." />
       </a.div>
       <a.div
         className="z-[99] absolute top-[60%] flex items-center gap-4 lg:ml-[20%] ml-[2.5rem] mt-[5rem]"

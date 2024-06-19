@@ -100,7 +100,7 @@ const AlternativeMenu = () => {
             animate="open"
             exit="closed"
           >
-            <a.ul className="w-[50vw] xl:w-[20vw] p-5">
+            <a.ul className="w-[50vw] xl:w-[20vw] 3xl:w-[15vw] p-5">
               {menuItems.map((item, index) => (
                 <a.li
                   key={item.name}
