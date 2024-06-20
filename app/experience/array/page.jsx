@@ -10,7 +10,7 @@ const ArrayInternship = () => {
       experienceRole="Frontend Developer"
       experienceType="Internship"
       mainText="
-      In a separate project, I developed custom front ends using Next.js 13, 
+      Developed custom front ends using Next.js 13, 
       Tailwind CSS, and Sanity CMS for a small magazine business aiming to 
       diversify its product offering and modernise its brand. 
       <br />
