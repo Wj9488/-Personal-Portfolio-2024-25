@@ -195,7 +195,7 @@ export default function Home() {
           <a.section className="padding__setter pt-[2.5rem] pb-[5rem] l__bg"
             // style={{ y: projectSectionTranslate }}
           >
-            <CommonHeader headerText="Projects, Experiences and Ideas" extraCss="" />
+            <CommonHeader headerText="Projects & Experiences" extraCss="" />
             {/* <div className="ic__b_top mt-[2.5rem]">
               <Project
                 imageSrc={TetherCMS}
